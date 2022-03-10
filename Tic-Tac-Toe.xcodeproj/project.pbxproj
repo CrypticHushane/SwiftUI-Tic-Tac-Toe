@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB3FBD1327D9F35200FD7D74 /* Drawing.mov in Resources */ = {isa = PBXBuildFile; fileRef = BB3FBD1227D9F35200FD7D74 /* Drawing.mov */; };
-		BB3FBD1627D9F36400FD7D74 /* Winning.mov in Resources */ = {isa = PBXBuildFile; fileRef = BB3FBD1427D9F36400FD7D74 /* Winning.mov */; };
-		BB3FBD1727D9F36400FD7D74 /* Losing.mov in Resources */ = {isa = PBXBuildFile; fileRef = BB3FBD1527D9F36400FD7D74 /* Losing.mov */; };
+		BB3FBD1B27D9F6DC00FD7D74 /* Winning.gif in Resources */ = {isa = PBXBuildFile; fileRef = BB3FBD1827D9F6DC00FD7D74 /* Winning.gif */; };
+		BB3FBD1C27D9F6DC00FD7D74 /* Losing.gif in Resources */ = {isa = PBXBuildFile; fileRef = BB3FBD1927D9F6DC00FD7D74 /* Losing.gif */; };
+		BB3FBD1D27D9F6DC00FD7D74 /* Drawing.gif in Resources */ = {isa = PBXBuildFile; fileRef = BB3FBD1A27D9F6DC00FD7D74 /* Drawing.gif */; };
 		BB47D721276AF01D00529A30 /* Tic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47D720276AF01D00529A30 /* Tic_Tac_ToeApp.swift */; };
 		BB47D723276AF01D00529A30 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47D722276AF01D00529A30 /* GameView.swift */; };
 		BB47D725276AF01E00529A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB47D724276AF01E00529A30 /* Assets.xcassets */; };
@@ -19,9 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB3FBD1227D9F35200FD7D74 /* Drawing.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Drawing.mov; sourceTree = "<group>"; };
-		BB3FBD1427D9F36400FD7D74 /* Winning.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Winning.mov; sourceTree = "<group>"; };
-		BB3FBD1527D9F36400FD7D74 /* Losing.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Losing.mov; sourceTree = "<group>"; };
+		BB3FBD1827D9F6DC00FD7D74 /* Winning.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Winning.gif; path = ../../../../Winning.gif; sourceTree = "<group>"; };
+		BB3FBD1927D9F6DC00FD7D74 /* Losing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Losing.gif; path = ../../../../Losing.gif; sourceTree = "<group>"; };
+		BB3FBD1A27D9F6DC00FD7D74 /* Drawing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Drawing.gif; path = ../../../../Drawing.gif; sourceTree = "<group>"; };
 		BB47D71D276AF01D00529A30 /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB47D720276AF01D00529A30 /* Tic_Tac_ToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeApp.swift; sourceTree = "<group>"; };
 		BB47D722276AF01D00529A30 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -45,9 +45,9 @@
 		BB3FBD1127D9F2D600FD7D74 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
-				BB3FBD1527D9F36400FD7D74 /* Losing.mov */,
-				BB3FBD1427D9F36400FD7D74 /* Winning.mov */,
-				BB3FBD1227D9F35200FD7D74 /* Drawing.mov */,
+				BB3FBD1A27D9F6DC00FD7D74 /* Drawing.gif */,
+				BB3FBD1927D9F6DC00FD7D74 /* Losing.gif */,
+				BB3FBD1827D9F6DC00FD7D74 /* Winning.gif */,
 			);
 			path = Videos;
 			sourceTree = "<group>";
@@ -148,10 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB3FBD1727D9F36400FD7D74 /* Losing.mov in Resources */,
 				BB47D728276AF01E00529A30 /* Preview Assets.xcassets in Resources */,
-				BB3FBD1627D9F36400FD7D74 /* Winning.mov in Resources */,
-				BB3FBD1327D9F35200FD7D74 /* Drawing.mov in Resources */,
+				BB3FBD1D27D9F6DC00FD7D74 /* Drawing.gif in Resources */,
+				BB3FBD1B27D9F6DC00FD7D74 /* Winning.gif in Resources */,
+				BB3FBD1C27D9F6DC00FD7D74 /* Losing.gif in Resources */,
 				BB47D725276AF01E00529A30 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
